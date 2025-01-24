@@ -10,113 +10,23 @@ body {
     color: white;
 }
 
-.poppins-thin {
-    font-family: "Poppins", serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.poppins-extralight {
-    font-family: "Poppins", serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.poppins-light {
-    font-family: "Poppins", serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
 .poppins-regular {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.poppins-medium {
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.poppins-semibold {
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.poppins-bold {
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.poppins-extrabold {
-    font-family: "Poppins", serif;
-    font-weight: 800;
-    font-style: normal;
-}
-
-.poppins-black {
-    font-family: "Poppins", serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-.poppins-thin-italic {
-    font-family: "Poppins", serif;
-    font-weight: 100;
-    font-style: italic;
-}
-
-.poppins-extralight-italic {
-    font-family: "Poppins", serif;
-    font-weight: 200;
-    font-style: italic;
-}
-
-.poppins-light-italic {
-    font-family: "Poppins", serif;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.poppins-regular-italic {
-    font-family: "Poppins", serif;
+.recursive-regular-italic {
+    font-family: "Recursive", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
-}
-
-.poppins-medium-italic {
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: italic;
-}
-
-.poppins-semibold-italic {
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-style: italic;
-}
-
-.poppins-bold-italic {
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.poppins-extrabold-italic {
-    font-family: "Poppins", serif;
-    font-weight: 800;
-    font-style: italic;
-}
-
-.poppins-black-italic {
-    font-family: "Poppins", serif;
-    font-weight: 900;
-    font-style: italic;
-}
+    font-variation-settings:
+      "slnt" 0,
+      "CASL" 0,
+      "CRSV" 0.5,
+      "MONO" 0;
+  }
 
 p {
     margin: 0em 0.5em 0em 0.5em;
@@ -124,11 +34,43 @@ p {
 
 .top-header {
     display: flex;
-    justify-content: flex-start;
-    width: 75%;
-    margin: 3em 1em 1em 10em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 3em auto 3em auto;
+}
+
+.flex-start {
+    margin-right: auto;
+}
+
+.flex-end {
+    margin-left: 1.5em;
 }
 
 .title-header {
-    margin-right: 44.5em;
+    font-size: 1.25em;
+    text-align: left;
+}
+
+.main-header {
+    justify-content: center;
+}
+
+.main-header-logo {
+    width: 194px;
+    height: auto;
+    margin: auto auto 2em;
+}
+
+.main-header h1 {
+    font-size: 4.25em;
+    text-align: center;
+    color: #FF7575;
+}
+
+.main-header h3 {
+    font-size: 1.5em;
+    text-align: center;
 }
