@@ -56,6 +56,7 @@ p {
 
 .main-header {
     justify-content: center;
+    margin: 0em 0em 7em 0em;
 }
 
 .main-header-logo {
@@ -73,4 +74,35 @@ p {
 .main-header h3 {
     font-size: 1.5em;
     text-align: center;
+}
+
+.separator {
+    height: 2px;
+    background-color: #4D4D4D;
+    opacity: 20%;
+}
+
+.category-listing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 1em auto 3em auto;
+    color: #909090;
+    font-size: 1.25em;
+}
+
+.category-listing img {
+    filter: invert(60%) sepia(0%) saturate(2%) hue-rotate(60deg) brightness(96%) contrast(89%);
+}
+
+.grid-icon {
+    width: 24px;
+    height: auto;
+}
+
+.list-icon {
+    width: 24px;
+    height: auto;
 }
