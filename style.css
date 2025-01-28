@@ -16,6 +16,12 @@ body {
     font-style: normal;
 }
 
+.poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
 .recursive-regular-italic {
     font-family: "Recursive", serif;
     font-optical-sizing: auto;
@@ -139,4 +145,49 @@ footer {
 .twitter-icon {
     width: 20px;
     height: auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+    width: 80%;
+    margin: 1em auto 3em auto;
+}
+
+.article-box {
+    height: 450px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.article-box img {
+    width: 85%;
+    height: 40%;
+    margin: 1.5em;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.article-box p {
+    color: black;
+}
+
+.article-box-header {
+    margin: 0px 25px 5px 25px;
+}
+
+.article-box-details {
+    margin: 0px 30px 5px 25px;
+    font-size: small;
+}
+
+.article-box-footer {
+    margin: 10px 20px 0px 25px;
+    font-size: small;
 }
