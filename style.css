@@ -26,7 +26,14 @@ body {
       "CASL" 0,
       "CRSV" 0.5,
       "MONO" 0;
-  }
+}
+
+.source-sans-3-bold {
+    font-family: "Source Sans 3", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
 
 p {
     margin: 0em 0.5em 0em 0.5em;
@@ -104,5 +111,32 @@ p {
 
 .list-icon {
     width: 24px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 1em auto 3em auto;
+}
+
+.title-footer {
+    font-size: 1.25em;
+}
+
+.blue-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.25em;
+    background-color: #4699E0;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.twitter-icon {
+    width: 20px;
     height: auto;
 }
